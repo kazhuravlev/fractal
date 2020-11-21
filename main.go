@@ -12,17 +12,17 @@ import (
 
 const (
 	// Position and size
-	//px   = -0.5557506
-	//py   = -0.55560
-	//size = 0.000000001
-	px    = -2
-	py    = -1.2
-	size  = 2.5
+	px   = -0.5557506
+	py   = -0.55560
+	size = 0.000000001
+	//px    = -2
+	//py    = -1.2
+	//size  = 2.5
 
 	// Quality
-	imgWidth = 2048
+	imgWidth = 2048 * 4
 	maxIter  = 1500
-	samples  = 2
+	samples  = 5
 
 	showProgress = true
 )
